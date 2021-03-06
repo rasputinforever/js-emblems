@@ -21,6 +21,7 @@ This API provides some random text strings.
 2. Optional Transparent
 3. API??? That'd be cool.
 4. Button to "copy/view html" of rendered emblem
+5. Adjust dimensions: default 16x16, maybe have 8x8, 32x32
 
 ## Thanks
 
