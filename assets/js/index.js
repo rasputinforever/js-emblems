@@ -12,9 +12,14 @@ const colorInput = document.getElementById("colorInput")
 
 // generate icon when clicked
 submitButton.onclick = function() {
-    
+
     // moves the previous emblem if its there
     moveEmblem()
+
+    // if form is empty...
+    if (emblemText.value === "") {
+        return
+    }
 
     // clear render area
     renderLoc.innerHTML = '';
