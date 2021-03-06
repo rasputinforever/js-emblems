@@ -22,6 +22,8 @@ This API provides some random text strings.
 3. API??? That'd be cool.
 4. Button to "copy/view html" of rendered emblem
 5. Adjust dimensions: default 16x16, maybe have 8x8, 32x32
+6. Alert/Something when form is empty.
+7. Auto-Randomizer-Multiplier: ie, make 10 random emblems on one click
 
 ## Thanks
 
