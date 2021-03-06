@@ -1,4 +1,8 @@
 body {
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
@@ -11,7 +15,6 @@ body {
     text-transform: uppercase;
     position: relative;
     padding: 3px 0;
-    background-color: antiquewhite;
 }
 
 #emblemTextForm {
@@ -31,7 +34,6 @@ body {
 }
 
 .generatedEmblem{
-    color: black;
     text-shadow: none;
 }
 
