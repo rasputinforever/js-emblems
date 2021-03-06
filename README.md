@@ -20,6 +20,7 @@ This API provides some random text strings.
 1. Emblems rendered as images instead of DIVs
 2. Optional Transparent
 3. API??? That'd be cool.
+4. Button to "copy/view html" of rendered emblem
 
 ## Thanks
 
