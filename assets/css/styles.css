@@ -14,6 +14,10 @@ body {
     background-color: antiquewhite;
 }
 
+#emblemTextForm {
+    margin-top: 20px;
+}
+
 #characterEmblemRender {
     height: 200px
 }
@@ -37,10 +41,11 @@ body {
 
 #headerText {
     font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .btn {
-    
+    margin-bottom: 20px;
     text-shadow: none;
 }
 

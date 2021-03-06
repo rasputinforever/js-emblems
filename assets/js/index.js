@@ -12,7 +12,10 @@ const colorInput = document.getElementById("colorInput")
 
 // generate icon when clicked
 submitButton.onclick = function() {
+    
+    // moves the previous emblem if its there
     moveEmblem()
+
     // clear render area
     renderLoc.innerHTML = '';
     
@@ -29,7 +32,6 @@ submitButton.onclick = function() {
 
     //back color
     let backColor = colorInput.value
-    console.log(backColor === "")
     if (!backColor) {
         backColor = "Black"
     }
