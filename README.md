@@ -18,5 +18,9 @@ This API provides some random text strings.
 ## To-Do List
 
 1. Emblems rendered as images instead of DIVs
-2. Optional Back Colors / Transparent
+2. Optional Transparent
 3. API??? That'd be cool.
+
+## Thanks
+
+Thank you to [Castaway](https://github.com/Team-CYOA/CYOA) team for the inspiration to create this tool!
