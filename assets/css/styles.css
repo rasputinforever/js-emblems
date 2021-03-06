@@ -43,3 +43,8 @@ body {
     
     text-shadow: none;
 }
+
+#colorInput {
+    width: auto;
+    display:inline
+}
