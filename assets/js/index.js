@@ -1,4 +1,7 @@
 import { createImg } from "./emblemGenerator.js"
+import { getRandText } from "./randomText.js"
+
+
 
 const renderLoc = document.getElementById("characterEmblemRender")
 const emblemText = document.getElementById("emblemTextForm")
@@ -32,3 +35,5 @@ function moveEmblem() {
         oldEmblems.innerHTML += renderLoc.innerHTML
     }
 }
+
+console.log(getRandText())
