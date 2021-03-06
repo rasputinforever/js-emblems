@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Emblem Generator</title>
 </head>
 <body>
-    <p>Create an Emblem! Type any string into the form and click "generate".</p>
+    <h2 id="headerText">Create an Emblem!</h2>
 
     <div id="characterEmblemRender"></div>
 
     <form>
 
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Your String Here</label>
-          <input id="emblemTextForm" type="input" class="form-control" id="exampleInputPassword1">
+          <input id="emblemTextForm"  class="inputString form-control " placeholder="Your String Here">
         </div>
 
 <!-- 
@@ -28,11 +29,12 @@
         </div> -->
 
         <div id="generateBtn" class="btn btn-primary">Create Emblem</div>
+        <div id="randomBtn" class="btn btn-warning">Random Text</div>
 
     </form>
-
-    <div id="oldEmblems">
-        <p>Previously Rendered</p>
+    <div class="container">
+        <div id="oldEmblems" class="row">
+        </div>
     </div>
 
 </body>

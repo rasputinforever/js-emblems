@@ -1,5 +1,5 @@
 // source: hipsum.co
-export function getRandText() {
+export function getRandText(form) {
 
 
     $.ajax({
@@ -8,8 +8,9 @@ export function getRandText() {
     }).then((data) => {
         
         let wordArr = data[0].split(" ")
-        let randString = createThreeWordString(wordArr)
-        console.log(randString)
+        let randString = createThreeWordString(wordArr) 
+
+        form.value = randString
 
     })
 }

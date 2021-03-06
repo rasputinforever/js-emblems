@@ -1,4 +1,4 @@
-function createImg(refNode, myText) {
+function createImg(refNode, myText, bgCol) {
     let myColorCodes = []
 
     for (let i = 0; i < myText.length; i++) {
@@ -52,7 +52,7 @@ function createImg(refNode, myText) {
     wrapperWrapper.appendChild(colorWrapperBR)
 
     
-    wrapperWrapper.setAttribute("style", "background-color: black;height:160px; width:160px;display: flex;flex-wrap: wrap-reverse;margin-left: auto;margin-right: auto;");
+    wrapperWrapper.setAttribute("style", `background-color: ${bgCol};height:160px; width:160px;display: flex;flex-wrap: wrap-reverse;margin-left: auto;margin-right: auto;`);
     wrapperWrapper.classList.add("emblem");
 
     refNode.appendChild(wrapperWrapper)

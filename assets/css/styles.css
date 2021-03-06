@@ -1,3 +1,45 @@
+body {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    color: #FFF5EE;
+    text-shadow: 1px 1px 1px #070707, 1px 2px 1px #070707, 1px 3px 1px #070707, 1px 4px 1px #070707, 1px 5px 1px #070707, 1px 6px 1px #070707, 1px 7px 1px #070707, 1px 8px 1px #070707, 1px 9px 1px #070707, 1px 10px 1px #070707, 1px 18px 6px rgb(16 16 16 / 40%), 1px 22px 10px rgb(16 16 16 / 20%), 1px 25px 35px rgb(16 16 16 / 20%), 1px 30px 60px rgb(16 16 16 / 40%);
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 3px 0;
+    background-color: antiquewhite;
+}
+
 #characterEmblemRender {
     height: 200px
+}
+
+.generatedEmblem {
+    margin:auto
+}
+
+#randomBtn {
+    color: white;
+}
+
+.generatedEmblem{
+    color: black;
+    text-shadow: none;
+}
+
+.inputString {
+    text-align: center;
+}
+
+#headerText {
+    font-size: 24px;
+}
+
+.btn {
+    
+    text-shadow: none;
 }
