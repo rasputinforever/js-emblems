@@ -1,5 +1,7 @@
 # js-emblems
-"Random" emblem generator
+
+![Header](/assets/images/intro.png)
+
 
 ## To-Do List
 
