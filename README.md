@@ -7,4 +7,5 @@
 
 1. Emblems rendered as images instead of DIVs
 2. Page Styling
+3. Optional Back Colors / Transparent
 3. API??? That'd be cool.
