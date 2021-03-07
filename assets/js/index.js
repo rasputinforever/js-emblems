@@ -21,6 +21,11 @@ submitButton.onclick = function() {
         return
     }
 
+    renderImage()
+ }
+
+export function renderImage(){
+    
     // clear render area
     renderLoc.innerHTML = '';
     
@@ -46,9 +51,9 @@ submitButton.onclick = function() {
 
     // clear for next
     emblemText.value = ''
- }
+}
 
-function moveEmblem() {
+export function moveEmblem() {
     if (renderLoc.innerHTML != '') {
         oldEmblems.innerHTML += renderLoc.innerHTML
     }

@@ -1,6 +1,10 @@
+
+import { renderImage, moveEmblem } from "./index.js"
+
 // source: hipsum.co
 export function getRandText(form) {
-
+    
+    moveEmblem()
 
     $.ajax({
         type: "GET",
@@ -11,8 +15,9 @@ export function getRandText(form) {
         let randString = createThreeWordString(wordArr) 
 
         form.value = randString
-
+        renderImage();
     })
+
 }
 
 function createThreeWordString(wordArr) {
@@ -20,9 +25,7 @@ function createThreeWordString(wordArr) {
     let returnString = [];
 
     for (let i = 0; i < 3; i++) {
-        
-        returnString.push(wordArr[(Math.floor(Math.random() * wordArr.length))])
-        
+        returnString.push(wordArr[(Math.floor(Math.random() * wordArr.length))])    
     }
 
     return returnString.join(" ")
