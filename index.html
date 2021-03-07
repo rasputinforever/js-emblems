@@ -13,15 +13,19 @@
     <title>Emblem Generator</title>
 </head>
 <body>
-    <h2 id="headerText">Create an Emblem!</h2>
+    <div class="container">
+        <div class="col">
+            <h2 id="headerText">Create an Emblem!</h2>
 
-    <div id="characterEmblemRender"></div>
-
-    <form>
-
-        <div class="mb-3">
-          <input id="emblemTextForm"  class="inputString form-control " placeholder="Your String Here">
+            <div id="characterEmblemRender"></div>
+        
+            <form>
+        
+                <div class="mb-3">
+                  <input id="emblemTextForm"  class="inputString form-control " placeholder="Your String Here">
+                </div>
         </div>
+    </div>
 
 <!-- 
         Can use these when we have some "modifiers"
@@ -38,7 +42,7 @@
                     <div id="generateBtn" class="btn btn-primary">Create Emblem</div>
                 </div>
                 <div class="generatedEmblem col">
-                    <input id="colorInput" class="form-control" placeholder="Color. Default: Black"></input>
+                    <input id="colorInput" class="form-control" placeholder="Color"></input>
                 </div>
             </div>
         </div>
