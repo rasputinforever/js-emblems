@@ -1,11 +1,13 @@
 body {
+    text-align: auto;
     background-image: url("../images/bg.jpg");
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Press Start 2P', cursive;
     color: white;
     color: #FFF5EE;
@@ -15,6 +17,7 @@ body {
     text-transform: uppercase;
     position: relative;
     padding: 3px 0;
+    padding-bottom: 20px;
 }
 
 #emblemTextForm {
@@ -22,7 +25,7 @@ body {
 }
 
 #characterEmblemRender {
-    height: 200px
+    height: 300px
 }
 
 .generatedEmblem {
