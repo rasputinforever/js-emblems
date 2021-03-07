@@ -33,7 +33,7 @@ export function renderImage(){
     renderLoc.innerHTML = 
     `
         <div class="generatedEmblem col-sm">
-            <p>${emblemText.value}</p>    
+            <p class="renderedText">${emblemText.value}</p>    
         </div>
     `
 

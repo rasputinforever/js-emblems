@@ -28,20 +28,25 @@ body {
     height: 300px
 }
 
-.generatedEmblem {
-    margin:auto
-}
-
 #randomBtn {
     color: white;
 }
 
 .generatedEmblem{
     text-shadow: none;
+    margin:auto;
+}
+
+.renderedText {
+
+    font-size: 15px
 }
 
 .inputString {
     text-align: center;
+    
+    width: 80%;
+    margin: auto;
 }
 
 #headerText {
